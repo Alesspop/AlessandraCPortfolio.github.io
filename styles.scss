@@ -81,15 +81,18 @@ div {
     padding: 20px;
 }
 
-//#skills .skills ul {
-   // column-count: 2;
-   // text-align: center;
-    //list-style-type: none;
-}
-
 #skills {
     background-color: $primary-color;
-}
+  
+  }
+  
+.skills {
+    background-color:$primary-color;
+    column-count: 3;
+    column-gap: 1px;
+   
+  }
+
 
 /*button {
     color: white;
@@ -132,5 +135,11 @@ iframe {
 
 #portfolioimg {
     float: left;
+}
+
+#treehouse {
+    width: 200px;
+    border: 3px solid $primary-color;
+    margin-bottom: 50px;
 }
 
