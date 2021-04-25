@@ -14,11 +14,7 @@ nav {
   color: white;
 }
 
-li {
-  list-style-type: none;
-}
-
-ul .nav {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -26,8 +22,8 @@ ul .nav {
   background-color: #8ecf79;
 }
 
-li .nav-li {
-  float: right;
+li {
+  float: left;
 }
 
 li a {
@@ -83,10 +79,7 @@ div {
   padding: 20px;
 }
 
-.skills {
-  -webkit-column-count: 2;
-          column-count: 2;
-  text-align: center;
+#skills .skills ul {
   list-style-type: none;
 }
 
