@@ -81,6 +81,12 @@ div {
 
 #skills {
   background-color: #8ecf79;
+
+}
+
+.skills {
+  background-color: #8ecf79;
+  column-count: 2;
 }
 
 /*button {
