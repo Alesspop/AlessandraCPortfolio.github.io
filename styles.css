@@ -22,7 +22,7 @@ ul {
   background-color: #8ecf79;
 }
 
-li {
+nav li {
   float: left;
 }
 
@@ -77,10 +77,6 @@ p {
 div {
   text-align: center;
   padding: 20px;
-}
-
-#skills .skills ul {
-  list-style-type: none;
 }
 
 #skills {
