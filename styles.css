@@ -1,3 +1,8 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 #herotext {
   display: -ms-grid;
   display: grid;
@@ -40,7 +45,6 @@ li a:hover {
 
 section {
   text-align: center;
-  margin-top: 35px;
   padding: 20px;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -50,13 +54,31 @@ section {
   margin-top: 35px;
   padding: 20px;
   font-family: 'Ubuntu', sans-serif;
-  margin-bottom: 400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50% 50%;
+      grid-template-rows: 50% 50%;
+}
+
+.portfoliosectcol {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+article {
+  margin-top: 30px;
 }
 
 h1 {
-  background-color: #fa80c3;
+  background-color: #ffb3b3;
   color: black;
   width: 400px;
+  text-align: center;
+}
+
+h2 {
   text-align: center;
 }
 
