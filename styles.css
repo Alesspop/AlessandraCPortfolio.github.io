@@ -74,17 +74,19 @@ article {
 h1 {
   background-color: #ffb3b3;
   color: black;
-  width: 400px;
+  width: 100%;
   text-align: center;
 }
 
 h2 {
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 p {
   display: inline-block;
   margin: 20px;
+  vertical-align: top;
 }
 
 .footer-logos {

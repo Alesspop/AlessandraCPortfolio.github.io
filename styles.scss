@@ -74,7 +74,7 @@ article {
 h1 {
     background-color: $secondary-color;
     color: black;
-    width: 400px;
+    width: 100%;
     text-align: center;
 }
 
@@ -87,6 +87,8 @@ h2 {
 p {
     display: inline-block;
     margin: 20px;
+    vertical-align: top;
+
 }
 
 .footer-logos {
